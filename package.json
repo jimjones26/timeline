@@ -1,0 +1,28 @@
+{
+  "name": "timeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimjones26/timeline.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimjones26/timeline/issues"
+  },
+  "homepage": "https://github.com/jimjones26/timeline#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "rethinkdb": "^2.3.3",
+    "socket.io": "^1.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^7.0.3",
+    "@types/rethinkdb": "^2.3.1"
+  }
+}
